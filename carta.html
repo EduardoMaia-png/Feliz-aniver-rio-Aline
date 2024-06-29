@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz aniversário</title>
+
+    <style>
+        body{
+            background-color: hotpink;
+        }
+
+        .painel{
+            margin: auto;
+            margin-top: 4cm;
+            background-color: white;
+            width: 1500px;
+            height: 2220px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #sim{
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -50px;
+        }
+        #nao{
+            position: absolute;
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 900;
+		line-height: 1.5;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
+		margin: 0 0 1rem 0;
+        }
+        p {
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 900;
+		line-height: 3.5;
+		letter-spacing: 0.050em;
+		text-transform: uppercase;
+		margin: 0 0 1rem 0;
+        }
+       .esq{
+        margin-right: 50;
+       }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="painel">
+        <h1> Feliz aniversário princesa</h1>
+
+        <img src="https://media.tenor.com/S0evDhePoPYAAAAC/hello-kitty.gif" alt="">
+
+        <h2> Eu te amo</h2>
+        <p>Aline, desde a primeira vez que eu te vi, a minha visão sobre o mundo não foi mais a mesma. Eu vi a garota mais linda que já tinha visto e, no mesmo momento, cresceu um desejo incontrolável de te dizer o quanto eu admirava você: o seu cabelo lindo, a sua franjinha, os seus olhos brilhantes, o seu narizinho fofo e a sua boquinha macia. Quando a gente começou a conversar, desde então, eu não tiro você da cabeça. Conhecer a pessoa que vive dentro de você me mostrou que, além de linda, você é uma pessoa doce, gentil, meiga e muito carinhosa.<br />
+            Ter o privilégio de conhecer os seus gostos, saber que você adora livros de romance ou fazer crochê, também que você gosta de agradar todas as pessoas que ama e que trata todo mundo com um jeitinho especial que só você tem, saber que você chora por coisas simples e que se sente muito feliz com a companhia dos seus amigos e valoriza imensamente isso. Cada detalhe que conheço seu me faz ficar cada dia mais apaixonado. Você é a garota dos meus sonhos e, apesar de estar fazendo aniversário hoje, eu que agradeço por você estar fazendo mais um ano de vida, pois graças a isso eu pude conhecer você.<br />
+            Eu te amo e vou te mostrar isso todos os dias de nossas vidas. Quero te dizer que você é muito especial para mim.<br />
+            Para: Love of my life <br />
+            Do seu querido,Dudu
+        </p>
+        <img src="imagem/IMG-20240628-WA0057.jpg" alt="" width="1000px" height="600pxpx">
+        <h1>Minha princesa S2 </h1>
+        <img src="https://i.pinimg.com/originals/b2/56/81/b256816b1b2bfd3c93a25683d40dc813.jpg" alt="" class="esq" height="200px" width="200px" margin-left:">
+        <img src="https://i.pinimg.com/originals/99/e2/3f/99e23fe727388a367fa809aecbabe705.gif" alt="" class="esq" height="200px" width="200px" margin-left:">
+        <img src="https://i.pinimg.com/originals/86/13/36/8613368b6f2333cf491ad9c517902b02.jpg" alt="" class="esq" height="200px" width="200px" margin-left:">
+
+        <h2>uma musiquinha para você</h2>
+        <video width="1500px" controls>
+        <source src="imagem/ssstik.io_1719674471681.mp4" type="video/mp4" >
+        </video>
+    </div>
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
